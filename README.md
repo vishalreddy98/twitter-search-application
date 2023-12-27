@@ -6,9 +6,11 @@ The objective of this project is to build an optimized search application using 
 The data at hand was a JSON file that contains approximately ~100k tweets and ~60k retweets in the form of JSON and nested JSON objects. It is important to note that there were also several retweets that were linked to the same original tweet. In terms of unique tweet (and retweet) ID’s, the total was 112036. The total number of users in this dataset corresponded to 88068. This indicates that a single user has made multiple tweets/retweets.
 
 ### Methodology
-User information was stored locally in a relational database - PostgreSQL was used for this project. MongoDB Atlas was used a non-relational data store for Tweets & Retweets information. MongoDB Atlas is a fully managed cloud database that can be easily accessed using its Python distribution - PyMongo. The user-interface for the Search Application was designed using FastAPI and uvicorn. In order to make the process of data retrieval faster and more efficient, Least Recently Used (LRU) Caching was implemented.
+User information was stored locally in a relational database - PostgreSQL was used for this project. MongoDB Atlas was used as a non-relational data store for Tweets & Retweets information. MongoDB Atlas is a fully managed cloud database that can be easily accessed using its Python distribution - PyMongo. The user interface for the Search Application was designed using FastAPI and uvicorn. In order to make the process of data retrieval faster and more efficient, Least Recently Used (LRU) Caching was implemented.
 
 A bird’s eye view of the project flow is shown below, describing how data is moved across various units.
+
+![FINAL PROJECT REPORT-VishalMekala](https://github.com/vishalreddy98/twitter-search-application/assets/83286490/a33d916d-6d14-456c-b49c-59d553c153a8)
 
 ### Important Information
 Please follow the instructions below to set up and run the application. Please use Python 3.9 to run this code, preferably 3.9.13.
