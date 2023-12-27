@@ -9,8 +9,7 @@ The data at hand was a JSON file that contains approximately ~100k tweets and ~6
 User information was stored locally in a relational database - PostgreSQL was used for this project. MongoDB Atlas was used as a non-relational data store for Tweets & Retweets information. MongoDB Atlas is a fully managed cloud database that can be easily accessed using its Python distribution - PyMongo. The user interface for the Search Application was designed using FastAPI and uvicorn. In order to make the process of data retrieval faster and more efficient, Least Recently Used (LRU) Caching was implemented.
 
 A bird’s eye view of the project flow is shown below, describing how data is moved across various units.
-
-<img width="468" alt="image" src="[https://github.com/vishalreddy98/twitter-search-application/assets/83286490/a33d916d-6d14-456c-b49c-59d553c153a8]">
+![FINAL PROJECT REPORT-VishalMekala](https://github.com/vishalreddy98/twitter-search-application/assets/83286490/12002f3a-6383-4d48-89b8-4f7481cc013c){:width="300px"}
 
 ### Important Information
 Please follow the instructions below to set up and run the application. Please use Python 3.9 to run this code, preferably 3.9.13.
