@@ -10,7 +10,8 @@ User information was stored locally in a relational database - PostgreSQL was us
 
 A bird’s eye view of the project flow is shown below, describing how data is moved across various units.
 
-<img width="468" alt="image" src="[https://github.com/RohitMacherla3/wikiHow_text_summarization_llms/assets/89356811/ce4dccbb-7730-48f0-ade0-f4cd68f79d11](https://github.com/vishalreddy98/twitter-search-application/assets/83286490/a33d916d-6d14-456c-b49c-59d553c153a8)">
+<img width="468" alt="image" src="[https://github.com/vishalreddy98/twitter-search-application/assets/83286490/a33d916d-6d14-456c-b49c-59d553c153a8]">
+
 ### Important Information
 Please follow the instructions below to set up and run the application. Please use Python 3.9 to run this code, preferably 3.9.13.
 
